@@ -3,19 +3,25 @@
     padding: 0;
 }
 .row{
-    border: 1px solid black;
     padding: 4px 0px;
     font-size: smaller;
     font-weight: 500;
+    color:lightgray;
 }
 li{
     list-style: none;
-    float: left;
     padding: 0px 10px;
+    display: inline-block;
 }
-a{
+a:active, a:visited{
     text-decoration: none !important;
+    color:lightgray;
+}
+a:hover{
+    text-decoration: none !important;
+    color: red !important;
+    font-weight: 650;
 }
 .header-text{
-    font-size: smaller;
+    color: white !important;
 }
