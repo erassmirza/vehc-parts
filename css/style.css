@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+.row-header{
+    background-color:black;
 }
 .row{
     padding: 4px 0px;
